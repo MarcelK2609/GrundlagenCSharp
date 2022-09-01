@@ -4,6 +4,9 @@ Console.WriteLine("(o o)");
 Console.WriteLine("| O |");
 Console.WriteLine("|   |");
 Console.WriteLine("'~~~'");
+Console.WriteLine("  ");
+Console.WriteLine("  ");
+Console.WriteLine("  ");
 
 //Aufgabe2
 string Vorname;
@@ -14,9 +17,13 @@ Vorname = "Marcel";
 Nachname = "Kroschke";
 Alter = 17;
 
-Console.WriteLine($"{Vorname}");
-Console.WriteLine($"{Nachname}");
-Console.WriteLine($"{Alter}");
+Console.WriteLine($"Vorname:{Vorname}");
+Console.WriteLine($"Nachname:{Nachname}");
+Console.WriteLine($"Alter:{Alter}");
+Console.WriteLine($"{Nachname} {Vorname} Ist {Alter} Jahre alt");
+Console.WriteLine("  ");
+Console.WriteLine("  ");
+Console.WriteLine("  ");
 
 //Aufgabe3
 string Vorname1;
