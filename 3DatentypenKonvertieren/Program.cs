@@ -1,18 +1,25 @@
 ﻿//Aufgabe 1
-Console.WriteLine($"Short: {typeof(short)} hat {sizeof(short)} Bytes / MinValue: {short.MinValue} / MaxValue: {short.MaxValue}");
-Console.WriteLine($"int: {typeof(int)} hat {sizeof(int)} Bytes / {int.MinValue} / MaxValue: {int.MaxValue}");
-Console.WriteLine($"long: {typeof(long)} hat {sizeof(long)} Bytes / MinValue: {long.MinValue} / MaxValue: {long.MaxValue}");
-Console.WriteLine($"float: {typeof(float)} hat {sizeof(float)} Bytes / MinValue: {float.MinValue} / MaxValue: {float.MaxValue}");
-Console.WriteLine($"double: {typeof(double)} hat {sizeof(double)} Bytes / MinValue: {double.MinValue} / MaxValue: {double.MaxValue}");
-Console.WriteLine($"decimal: {typeof(decimal)} hat {sizeof(decimal)} Bytes / MinValue: {decimal.MinValue} / MaxValue: {decimal.MaxValue}");
+int Short = 16;
+int Int = 32;
+int Long = 64;
+int Float = 32;
+int Double = 64;
+int Decimal = 128;
+
+Console.WriteLine($"Short: {Short} Bit / MinValue: {short.MinValue} / MaxValue: {short.MaxValue}");
+Console.WriteLine($"int: {Int} Bit / MinValue: {int.MinValue} / MaxValue: {int.MaxValue}");
+Console.WriteLine($"long: {Long} Bit / MinValue: {long.MinValue} / MaxValue: {long.MaxValue}");
+Console.WriteLine($"float: {Float} Bit / MinValue: {float.MinValue} / MaxValue: {float.MaxValue}");
+Console.WriteLine($"double: {Double} Bit/ MinValue: {double.MinValue} / MaxValue: {double.MaxValue}");
+Console.WriteLine($"decimal: {Decimal} Bit/ MinValue: {decimal.MinValue} / MaxValue: {decimal.MaxValue}");
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 
 //Aufgabe 2
-string Vorname = "Marcel";
 int Alter = 17;
+string Vorname = "Marcel";
 bool Ist_CSharp_Die_Erste_Programmiersprache_Die_sie_Lernen = true;
 Console.WriteLine($"Vorname: {Vorname}");
 Console.WriteLine($"Alter: {Alter}");
@@ -25,7 +32,7 @@ Console.WriteLine(" ");
 //Aufgabe 3
 int DollarZahl = 36;
 char Dollar = (char)DollarZahl;
-Console.WriteLine($"{DollarZahl}{Dollar}");
+Console.WriteLine($"{Dollar}");
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 Console.WriteLine(" ");
